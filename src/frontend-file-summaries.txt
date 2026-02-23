@@ -1,0 +1,11 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the complete single-page website structure with Header, Hero, Services, Products, Contact, and Footer sections.",
+  "frontend/src/components/Header.tsx": "Fixed navigation header with Lasereraa logo, domain name display, responsive menu, and smooth scroll navigation to page sections.",
+  "frontend/src/components/Hero.tsx": "Hero section featuring laser cutting background image, company headline, value propositions, CTA buttons, and feature highlights with industrial styling.",
+  "frontend/src/components/Services.tsx": "Services section showcasing three laser cutting capabilities (metal, MDF, acrylic) with detailed feature cards and visual imagery.",
+  "frontend/src/components/Products.tsx": "Products section displaying corporate and customizable gift items with category cards, feature highlights, and product showcase image.",
+  "frontend/src/components/Contact.tsx": "Contact section with company information, business hours, domain display, and call-to-action for quote requests.",
+  "frontend/src/components/Footer.tsx": "Footer component with brand information, service/product links, social media icons, domain reference, and Caffeine.ai attribution with UTM tracking.",
+  "frontend/src/index.css": "Global styles implementing industrial design system with OKLCH color palette, metallic tones, laser orange accents, and custom typography utilities.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with industrial theme colors, custom fonts, laser orange accent colors, and industrial border utilities."
+}

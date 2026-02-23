@@ -1,0 +1,120 @@
+{
+  "kind": "build_request",
+  "title": "Create professional website for Lasereraa industrial services",
+  "projectName": "Lasereraa",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a professional homepage with hero section showcasing Lasereraa as an industrial laser cutting organization, featuring the domain name lasereraa.com prominently",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "create a website accurate sharp look for Lasereraa",
+          "we need to add domain name is lasereraa.com"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Homepage displays company name 'Lasereraa' prominently",
+        "Domain name 'lasereraa.com' is visible in header or footer",
+        "Hero section has sharp, professional industrial aesthetic"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Create a services section displaying laser cutting capabilities for metal, MDF, and acrylic materials with clear descriptions",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "industrial works like laser cutting like metal , mdf , acrylic etc."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Services section lists laser cutting for metal",
+        "Services section lists laser cutting for MDF",
+        "Services section lists laser cutting for acrylic",
+        "Each service has a brief description"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create a products section showcasing corporate gift items and customizable gift offerings with visual presentation",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "we are also create corporate gift items and normal customizable gift items"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Products section displays corporate gift items category",
+        "Products section displays customizable gift items category",
+        "Visual grid or card layout for product presentation"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Implement a sharp, industrial design theme with precision-focused visual elements that reflect industrial manufacturing and laser cutting aesthetics, using metallic tones, clean lines, and technical typography throughout the website",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "accurate sharp look",
+          "industrial works like laser cutting"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Design uses industrial color palette with metallic or technical tones",
+        "Typography is clean and precision-oriented",
+        "Layout features sharp lines and geometric elements",
+        "Visual style is consistent across all sections"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Create a contact section with company information and call-to-action for inquiries about laser cutting services and gift items",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Contact section is visible on the page",
+        "Section includes call-to-action for service inquiries",
+        "Domain lasereraa.com is referenced in contact information"
+      ]
+    }
+  ],
+  "constraints": [
+    "Website must be built using React and TypeScript as per platform specifications",
+    "Must use Tailwind CSS for styling",
+    "Backend must use Motoko in single-actor architecture"
+  ],
+  "nonGoals": [
+    "E-commerce functionality or shopping cart",
+    "User accounts or authentication",
+    "Real-time chat or customer support integration",
+    "Payment processing"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Industrial laser cutting metal in action, sharp focused beam cutting through steel plate with sparks (laser-cutting-hero.dim_1200x600.png)",
+      "Precision laser engraving on acrylic material showing detailed pattern work (acrylic-precision.dim_800x600.png)",
+      "Collection of elegant corporate gift items including engraved metal plaques and custom wooden boxes (corporate-gifts.dim_800x600.png)",
+      "Modern industrial facility interior with laser cutting machines and metallic aesthetic (facility-background.dim_1920x1080.png)",
+      "Lasereraa company logo in sharp metallic style with industrial design elements (lasereraa-logo.dim_400x400.png)"
+    ],
+    "edits": []
+  }
+}
